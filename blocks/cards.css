@@ -5,6 +5,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  border-bottom: 1px solid #21212166;
 }
 
 .cards__list {
@@ -15,9 +16,6 @@
   grid-template-columns: repeat(auto-fit, 413px);
   justify-content: center;
   gap: 40px 20px;
-}
-
-.card__content {
 }
 
 @media screen and (max-width: 627px) {

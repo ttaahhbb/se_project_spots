@@ -10,6 +10,7 @@
   height: 190px;
   width: 190px;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .profile__column {
@@ -29,7 +30,7 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  max-width: 420;
+  max-width: 420px;
 }
 
 .profile__description {
@@ -37,25 +38,26 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
-  color: #212121;
+  color: #212121b2;
   text-overflow: ellipsis;
   overflow: hidden;
   line-clamp: 3;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  max-width: 420;
+  max-width: 420px;
 }
 
 .profile__edit-btn {
   margin-top: auto;
   border: none;
   background: none;
-  font-family: Poppins;
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
   align-self: flex-start;
+  cursor: pointer;
 }
 
 .profile__add-btn {
@@ -73,6 +75,7 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
