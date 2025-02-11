@@ -20,7 +20,7 @@ The way you'll do this at work is by exporting images directly from Figma — we
 
 Good luck and have fun!
 
-# Interactive Image Website
+# Description
 
 This project is designed to build an interactive website where users can interact with various images, enhancing the overall user experience with dynamic image setups and interactive elements.
 
@@ -35,3 +35,7 @@ This project is designed to build an interactive website where users can interac
 
 - **HTML** – Basic structure of the website.
 - **CSS** – Styling and layout for interactive features.
+
+## Video
+
+https://drive.google.com/file/d/13kt88NflCbJEY-xeao2tMjL3VAckY-60/view?usp=drive_link

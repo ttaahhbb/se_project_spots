@@ -18,14 +18,14 @@
 }
 
 .card__title {
-  font-family: "Poppins", Arial, sans-serif
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 119px;
+  max-width: 350px;
 }
 
 .card__like-btn {
@@ -39,7 +39,7 @@
 }
 
 .card__like-btn:hover {
-  color: #212121;
+  opacity: 1;
 }
 
 @media screen and (max-width: 627px) {
