@@ -22,6 +22,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  color: #212121;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -34,6 +35,9 @@
   height: 20px;
   border: none;
   background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   opacity: 40%;
   cursor: pointer;
 }
@@ -49,5 +53,11 @@
 
   .card__title {
     max-width: 250px;
+    font-size: 16px;
+  }
+
+  .card__like-button {
+    width: 20px;
+    height: 18px;
   }
 }
