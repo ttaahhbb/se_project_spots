@@ -22,7 +22,7 @@
   margin: 0 0 12px;
   font-weight: 500;
   font-size: 32px;
-  line-height: 32px;
+  line-height: 1;
   color: #212121;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -101,6 +101,7 @@
   }
 
   .profile__avatar {
+    margin-bottom: 12px;
     margin-right: 0;
     height: 80px;
     width: 80px;
@@ -113,6 +114,7 @@
   }
 
   .profile__description {
+    margin-bottom: 32px;
   }
 
   .profile__column {
@@ -121,5 +123,10 @@
 
   .profile__add-btn {
     margin: 0;
+    width: 100%;
+  }
+
+  .profile__edit-btn {
+    align-self: center;
   }
 }
