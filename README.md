@@ -39,3 +39,7 @@ This project is designed to build an interactive website where users can interac
 ## Video
 
 https://drive.google.com/file/d/13kt88NflCbJEY-xeao2tMjL3VAckY-60/view?usp=drive_link
+
+## Website
+
+- [Link to the project on GitHub](https://ttaahhbb.github.io/se_project_spots/)
