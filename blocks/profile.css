@@ -10,6 +10,7 @@
   height: 190px;
   width: 190px;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 .profile__column {
@@ -58,6 +59,8 @@
   align-self: flex-start;
   cursor: pointer;
   opacity: 70%;
+  display: flex;
+  gap: 8px;
 }
 
 .profile__edit-btn:hover {
@@ -80,6 +83,7 @@
   align-items: center;
   gap: 8px;
   cursor: pointer;
+  border: none;
 }
 
 .profile__add-btn:hover {
@@ -100,7 +104,6 @@
     margin-right: 0;
     height: 80px;
     width: 80px;
-    border-radius: 8px;
   }
 
   .profile__name {
